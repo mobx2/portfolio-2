@@ -1,0 +1,150 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;    
+}
+* {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo {
+    text-decoration: none;
+    color: #3a6cf4; 
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    /* default = 16px */
+}
+.navigation a {
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+    text-transform: capitalize;
+}
+.navigation a:hover {
+    color: #601cfc;
+}
+section {
+    padding: 100px 200px;
+}
+.main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/pexels-olia-danilevich-4974916.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.main h2 {
+    color: #ffffff;
+    font-weight: 700;
+}
+.main h2 span {
+    font-size: 3em;
+    color: #3a6cf4;
+    text-shadow: 1px 1px 10px #3a6cf4 ;
+}
+.main h3 {
+    color: #ffffff;
+    font-size: 2em;
+    font-weight: 900;
+}
+.projects {
+    text-decoration: none;
+    color: #ffffff;
+    font-size : 1.5em ;
+    background-color:#601cfc;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    transition: 0.7s ease ;
+}
+.projects:hover {
+    background-color: #3a6cf4;
+    transform: scale(1.1);
+}
+.social-icons a {
+    color: #ffffff;
+    font-size: 1.7em;
+    padding-right: 40px ;
+    text-shadow: 2px 2px 10px  black;
+    transition: 0.7s ease ;
+}
+.social-icons a:hover {
+    color: black;
+    text-shadow: 2px 2px 10px #3a6cf4; 
+}
+.main-2 {
+    min-width: 100vh;
+    align-items: center ;
+    text-align: center;
+    padding: 10px  200px;
+}
+.title {
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card-1 {
+    background-color: #ffffff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+.card-1:hover {
+    transform: scale(1.1);
+}
+.card-1 .icon {
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+}.info h3 {
+    color: #3a6cf4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.stay-up-icon {
+    font-size: 2em;
+    justify-content: center;
+    display: flex;
+    transition: 0.7s ease;
+    /* padding-bottom: 70px; */
+
+}
+.stay-up-icon:hover {
+    transform: scale(1.3);
+}
